@@ -19,18 +19,10 @@ public class Main {
         operator = scanObject.next().charAt(0);
 
         switch (operator) {
-            case '+':
-                answer = a + b;
-                break;
-            case '-':
-                answer = a - b;
-                break;
-            case '*':
-                answer = a * b;
-                break;
-            case '/':
-                answer = a % b;
-                break;
+            case '+' -> answer = a + b;
+            case '-' -> answer = a - b;
+            case '*' -> answer = a * b;
+            case '/' -> answer = a % b;
         }
 
         System.out.println(a + " " + operator + " " + b + " = " + answer);
