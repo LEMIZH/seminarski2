@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
+    //komentar
     public static void main(String[] args) {
         int a = 0;
         int b = 0;
